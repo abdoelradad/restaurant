@@ -7,7 +7,10 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-no-repeat  bg-hero xl:bg-cover xl:h-[1098px] py-40 pb-32 xl:py-0">
+    <section
+      className="relative bg-no-repeat  bg-hero xl:bg-cover xl:h-[1098px] py-40 pb-32 xl:py-0"
+      id="home"
+    >
       <div className="container mx-auto">
         {/* text & img */}
         <div className="flex items-center xl:h-[960px]">
