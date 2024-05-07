@@ -35,10 +35,10 @@ const Header = () => {
             <Image src={"/assets/logo.svg"} width={150} height={30} alt="" />
           </Link>
           {/* Nav */}
-          <Nav
+          {/* <Nav
             containerStyles={"hidden xl:flex gap-x-12 text-white"}
             linkStyles={"capitalize"}
-          />
+          /> */}
           {/* btn */}
           <ScrollLink to="reservation" smooth={true}>
             <Button variant="orange" size="sm">
@@ -46,11 +46,11 @@ const Header = () => {
             </Button>
           </ScrollLink>
           {/* Mobile Nav */}
-          <NavMobile
+          {/* <NavMobile
             containerStyles={"xl:hidden"}
             iconsStyles={"text-2xl"}
             linkStyles={"uppercase"}
-          />
+          /> */}
         </div>
       </div>
     </header>
