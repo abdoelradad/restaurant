@@ -16,7 +16,7 @@ const About = () => {
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         className="xl:pl-[135px]"
       >
         <h1 className="mb-9">Let's Talk About W'Food</h1>
@@ -36,7 +36,7 @@ const About = () => {
         variants={fadeIn("left", 0.4)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <Image
           src={"/assets/about/img.png"}

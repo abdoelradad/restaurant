@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between xl:flex-row">
           <div className="w-[300px] mb-8 xl:mb-0">
             <Link href={"/"}>
-              <Image src={"/assets/logo.svg"} width={90} height={36} alt="" />
+              <Image src={"/assets/logo.svg"} width={120} height={36} alt="" />
             </Link>
           </div>
 
@@ -20,22 +20,12 @@ const Footer = () => {
               <ul className="flex flex-col text-sm gap-y-6">
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
-                  </Link>
-                </li>
-                <li>
-                  <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
-                  </Link>
-                </li>
-                <li>
-                  <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
               </ul>
@@ -45,22 +35,22 @@ const Footer = () => {
               <ul className="flex flex-col text-sm gap-y-6">
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
                 <li>
                   <Link href={"/"}>
-                    Sit asdasd asdasdasd asdasdasdasda dasdasda
+                    Accusam dolor takimata et at sed ipsum est sea
                   </Link>
                 </li>
               </ul>

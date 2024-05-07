@@ -47,7 +47,7 @@ const NavMobile = ({ containerStyles, iconsStyles, linkStyles }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="outline-none cursor-pointer "
       >
-        <RiMenu2Line className="text-3xl text-white transition-all duration-200 " />
+        <RiMenu2Line className="text-3xl text-black transition-all duration-200 font-extralight " />
       </div>
       <aside
         className={`${
@@ -65,7 +65,7 @@ const NavMobile = ({ containerStyles, iconsStyles, linkStyles }) => {
           </div>
 
           {/* logo */}
-          <Link href={"/"} className="px-2 py-1 bg-white rounded-xl">
+          <Link href={"/"}>
             <Image src={"/assets/logo.svg"} width={120} height={36} alt="" />
           </Link>
           {/* links */}

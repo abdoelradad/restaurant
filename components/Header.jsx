@@ -34,8 +34,8 @@ const Header = () => {
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          <Link href={"/"} className="px-2 py-1 bg-white rounded-xl">
-            <Image src={"/assets/logo.svg"} width={150} height={30} alt="" />
+          <Link href={"/"}>
+            <Image src={"/assets/logo.svg"} width={130} height={30} alt="" />
           </Link>
           {/* Nav */}
           <Nav

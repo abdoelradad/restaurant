@@ -20,8 +20,8 @@ const Hero = () => {
               variants={fadeIn("down", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.4 }}
-              className="text-white mb-7"
+              viewport={{ once: true, amount: 0.4 }}
+              className="mb-5 text-black"
             >
               A taste of local <br /> flavours
             </motion.h1>
@@ -29,8 +29,8 @@ const Hero = () => {
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.4 }}
-              className="font-semibold text-white mb-7 "
+              viewport={{ once: true, amount: 0.4 }}
+              className="mb-5 font-semibold text-black "
             >
               by: <span className="text-orange">Wildan Wari</span>
             </motion.p>
@@ -38,8 +38,8 @@ const Hero = () => {
               variants={fadeIn("down", 0.6)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.4 }}
-              className="max-w-lg mx-auto mb-12 text-white xl:max-w-none xl:mx-0"
+              viewport={{ once: true, amount: 0.4 }}
+              className="max-w-lg mx-auto mb-5 text-black xl:max-w-none xl:mx-0"
             >
               Childe fathers whateer of few and, satiety and care adversity true
               where adversity, of in nor few the on run. adversity, of in nor
@@ -49,7 +49,7 @@ const Hero = () => {
               variants={fadeIn("down", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.4 }}
+              viewport={{ once: true, amount: 0.4 }}
             >
               <Button>Let's eat</Button>
             </motion.div>
@@ -59,7 +59,7 @@ const Hero = () => {
             variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.1 }}
+            viewport={{ once: true, amount: 0.1 }}
             className="hidden xl:flex xl:absolute xl:top-[200px] xl:right-0"
           >
             <Image
@@ -76,7 +76,7 @@ const Hero = () => {
         variants={fadeIn("up", 1.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.1 }}
         className="hidden xl:flex xl:relative xl:-top-36"
       >
         <Image

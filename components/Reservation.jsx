@@ -10,7 +10,7 @@ const Reservation = () => {
       variants={fadeIn("up", 0.2)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.2 }}
       className="xl:my-32 xl:h-[1020px] xl:bg-reservation xl:bg-no-repeat xl:flex xl:flex-col xl:justify-end xl:items-end"
       id="reservation"
     >
